@@ -1,0 +1,7 @@
+{
+  "editor.formatOnSave": true,
+  "files.eol": "\n",
+  "prettier.tslintIntegration": true,
+  "debug.node.autoAttach": "on",
+  "editor.rulers": [80]
+}

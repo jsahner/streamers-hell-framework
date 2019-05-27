@@ -1,0 +1,1 @@
+This solution contains the core and some modifications of Streamer's Hell. To build the projects you need Visual Studio 2017 or newer. The `API.ts` file in this folder contains the API definition as a TypeScript file and was used to [auto-generate](https://app.quicktype.io) the files used in the API project.

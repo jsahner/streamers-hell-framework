@@ -1,0 +1,59 @@
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  user-select: none;
+}
+
+.round {
+  border: 1.5px solid white;
+  border-radius: 50%;
+  display: inline-block;
+  font-weight: bold;
+  height: 1.5em;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 1.5em;
+}
+
+$color-tooltip: #d8d8d8f8;
+
+.tippy-tooltip {
+  &.sh-theme {
+    background-color: $color-tooltip;
+    color: black;
+    font-size: 13px;
+
+    &[data-animatefill] {
+      background-color: transparent;
+    }
+
+    .tippy-backdrop {
+      background-color: $color-tooltip;
+    }
+  }
+}
+
+.tippy-popper {
+  &[x-placement^="top"] .tippy-tooltip.sh-theme .tippy-arrow {
+    border-top-color: $color-tooltip;
+  }
+  &[x-placement^="bottom"] .tippy-tooltip.sh-theme .tippy-arrow {
+    border-bottom-color: $color-tooltip;
+  }
+  &[x-placement^="left"] .tippy-tooltip.sh-theme .tippy-arrow {
+    border-left-color: $color-tooltip;
+  }
+  &[x-placement^="right"] .tippy-tooltip.sh-theme .tippy-arrow {
+    border-right-color: $color-tooltip;
+  }
+}

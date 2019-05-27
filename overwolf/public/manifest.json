@@ -1,0 +1,29 @@
+{
+  "manifest_version": 1,
+  "type": "WebApp",
+  "meta": {
+    "name": "Streamer's Hell",
+    "version": "1.0.0",
+    "minimum-overwolf-version": "0.109.2",
+    "author": "Julian Sahner",
+    "icon": "img/IconMouseOver.png",
+    "icon_gray": "img/IconMouseNormal.png",
+    "description": "Streamer's Hell Prototype"
+  },
+  "permissions": ["FileSystem"],
+  "data": {
+    "start_window": "MainWindow",
+    "windows": {
+      "MainWindow": {
+        "clickthrough": true,
+        "file": "index.html",
+        "resizable": true,
+        "transparent": true,
+        "size": {
+          "width": 1280,
+          "height": 720
+        }
+      }
+    }
+  }
+}
