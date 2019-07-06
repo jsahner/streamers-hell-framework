@@ -1,3 +1,12 @@
+# Notice
+
+This branch contains projects that were added by request after I handed in my thesis.
+They were used during a study that was part of the thesis, in which we evaluated an offline prototype of Streamer's Hell. 
+I merely adapted the code to use the renewed API, however, I cannot guarantee that the projects still works as expected.
+They may still serve as a guideline for own implementations.
+
+For the originally handed-in code, please checkout the _master_ branch.
+
 # Documentation
 
 For instructions on how to build and use the individual projects, check their respective `README` files.
